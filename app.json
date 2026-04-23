@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "pary_projekt",
-    "slug": "snack-fa8d67ce-646c-4fd5-876d-53ed832d268a",
+    "slug": "pary-projekt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +24,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33d0053f-07a8-4ff3-9bb7-a5fe185cf153"
+      }
     }
   }
 }
