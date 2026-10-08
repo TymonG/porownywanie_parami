@@ -1,11 +1,22 @@
-# Sample Snack app
+# Porównywanie Parami (porownywanie_parami)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## O programie
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Aplikacja mobilna stworzona w technologii **React Native** oraz **Expo**. Służy do wartościowania, szeregowania i podejmowania decyzji na podstawie metody porównywania opcji parami (koncepcja AHP / Analityczny Proces Hierarchiczny).
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Główne funkcje
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+* **Ocena parami:** Porównywanie opcji dwie po dwóch, co pozwala przekształcić subiektywne preferencje w uporządkowany ranking.
+* **Wieloplatformowość:** Wsparcie dla systemów Android, iOS oraz przeglądarek WWW dzięki frameworkowi Expo.
+* **Gotowość do budowania:** Skonfigurowana obsługa buildów za pomocą Expo Application Services (`eas.json`).
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Struktura projektu
+
+```text
+porownywanie_parami/
+├── App.js              # Główny punkt wejścia i interfejs aplikacji[cite: 7]
+├── app.json            # Konfiguracja projektu Expo[cite: 7]
+├── eas.json            # Konfiguracja budowania EAS[cite: 7]
+├── index.js            # Rejestracja startowa aplikacji[cite: 7]
+├── components/         # Komponenty UI[cite: 7]
+└── assets/             # Ikony, ekrany ładowania i zasoby graficzne[cite: 7]
