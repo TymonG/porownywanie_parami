@@ -1,5 +1,3 @@
-# Porównywanie Parami (porownywanie_parami)
-
 ## O programie
 
 Aplikacja mobilna stworzona w technologii **React Native** oraz **Expo**. Służy do wartościowania, szeregowania i podejmowania decyzji na podstawie metody porównywania opcji parami (koncepcja AHP / Analityczny Proces Hierarchiczny).
