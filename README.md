@@ -12,9 +12,9 @@ Aplikacja mobilna stworzona w technologii **React Native** oraz **Expo**. Służ
 
 ```text
 porownywanie_parami/
-├── App.js              # Główny punkt wejścia i interfejs aplikacji[cite: 7]
-├── app.json            # Konfiguracja projektu Expo[cite: 7]
-├── eas.json            # Konfiguracja budowania EAS[cite: 7]
-├── index.js            # Rejestracja startowa aplikacji[cite: 7]
-├── components/         # Komponenty UI[cite: 7]
-└── assets/             # Ikony, ekrany ładowania i zasoby graficzne[cite: 7]
+├── App.js              # Główny punkt wejścia i interfejs aplikacji
+├── app.json            # Konfiguracja projektu Expo
+├── eas.json            # Konfiguracja budowania EAS
+├── index.js            # Rejestracja startowa aplikacji
+├── components/         # Komponenty UI
+└── assets/             # Ikony, ekrany ładowania i zasoby graficzne
